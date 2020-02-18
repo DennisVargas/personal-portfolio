@@ -53,13 +53,14 @@ section{
     background-color: var(--color4);
     color: var(--color1);
     font-size: .85rem;
+    align-items: center;
+    text-align: center;
 }
 
 .navbar-links-container{
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-    text-align: center;
+
     
     background-color: red;
 }
