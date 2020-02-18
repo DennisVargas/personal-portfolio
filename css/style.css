@@ -16,6 +16,9 @@ li{
     list-style-type: none;
 }
 /* base styles */
+body{
+    background: var(--onyx);
+}
 /* fonts */
 /* mobile styles */
 #projects, #welcome-section{
