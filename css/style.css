@@ -18,6 +18,7 @@ li{
 /* base styles */
 body{
     background: var(--onyx);
+    overflow-x: hidden;
 }
 /* fonts */
 /* mobile styles */
