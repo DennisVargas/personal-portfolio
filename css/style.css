@@ -50,8 +50,9 @@ section{
     color: var(--color1);
 }
 
-
-
+#navbar .navbar-links{
+    color: var(--color2);
+}
 /* fonts */
 /* mobile styles */
 
