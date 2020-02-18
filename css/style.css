@@ -1,7 +1,12 @@
 #projects, #welcome-section{
     height: 100vh;
 }
-
+#navbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
 @media only screen and (max-width: 600px) {
 
 }
