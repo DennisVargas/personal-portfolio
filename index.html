@@ -6,14 +6,36 @@
         <meta name="description" content="frontend-template">
         <meta name="author" content="Dennis Vargas">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
         <link rel="stylesheet" href="css/style.css">
     </head>
 
     <body>
-        <p>Hello-World</p>
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-        <script src="js/index.js"></script>
+        <nav id="navbar">
+            <ul>
+                <li>
+                    <a href="#welcome-section">About Me</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+            </ul>
+        </nav>
+        <main>
+            <section id="welcome-section">
+                <h1>Dennis Vargas</h1>
+                <p>Web Development Engineer</p>
+            </section>
+            <section id="projects">
+                <div class="project-tile">
+                    <a href="https://codepen.io/vargasd/full/oNgKGaK" target="_blank">Product Landing (The Garlic Bull Bistro)</a>
+                </div>
+            </section>
+            <section id="contact">
+                <div id="contact-links">
+                    <a href="https://github.com/dennisvargas" id="profile-link" target="_blank">Github</a>
+                </div>
+            </section>
+        </main>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     </body>
 </html>

@@ -1,0 +1,48 @@
+/* variables */
+:root{
+    --pastel-gray: #cbd4c2;
+    --white: #fffcff;
+    --onyx: #313638;
+    --english-vermillion: #c3423f;
+    --sandy-brown: #f09d51;
+}
+/* reset */
+body,p,a,ul,li{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+/* base styles */
+body{
+    background: var(--onyx);
+    overflow-x: hidden;
+}
+/* fonts */
+/* mobile styles */
+#projects, #welcome-section{
+    height: 100vh;
+}
+
+#navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+/* small tablet and large phone)*/
+@media only screen and (min-width: 620px){
+
+}
+
+/* large tablet laptop */
+@media only screen and (min-width: 960px){
+
+}
+
+/* large laptop and desktop */
+@media only screen and (min-width: 1200px){
+
+}
