@@ -32,10 +32,13 @@ li{
 .col-11{width: 91.67%}
 .col-12{width: 100%}
 
+html{
+    font-size: 16px;
+}
+
 body{
     background: var(--color5);
     overflow-x: hidden;
-    font-size: 24px;
 }
 
 section{
@@ -49,6 +52,7 @@ section{
     left: 0;
     background-color: var(--color4);
     color: var(--color1);
+    font-size: .85rem;
 }
 
 .navbar-links-container{
@@ -56,7 +60,7 @@ section{
     justify-content: flex-end;
     align-items: center;
     text-align: center;
-    font-size: 1rem;
+    
     background-color: red;
 }
 
