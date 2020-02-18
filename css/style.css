@@ -59,9 +59,6 @@ section{
 
 .navbar-links-container{
     display: flex;
-    justify-content: flex-end;
-
-    
     background-color: red;
 }
 
