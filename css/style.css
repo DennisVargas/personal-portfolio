@@ -52,7 +52,12 @@ section{
 }
 
 .navbar-links-container{
-    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    background-color: red;
 }
 
 .navbar-link{
