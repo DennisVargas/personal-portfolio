@@ -6,22 +6,24 @@
     --color4: #c3423f;
     --color5: #313638;
 }
+
 /* reset */
 body,p,a,ul,li{
     margin: 0;
     padding: 0;
     text-decoration: none;
 }
+
 li{
     list-style-type: none;
 }
+
 /* base styles */
 body{
     background: var(--color5);
     overflow-x: hidden;
 }
-/* fonts */
-/* mobile styles */
+
 #projects, #welcome-section{
     height: 100vh;
 }
@@ -31,6 +33,10 @@ body{
     top: 0;
     left: 0;
 }
+
+/* fonts */
+/* mobile styles */
+
 
 /* small tablet and large phone)*/
 @media only screen and (min-width: 620px){
