@@ -52,9 +52,8 @@ section{
     left: 0;
     background-color: var(--color4);
     color: var(--color1);
-    font-size: .85rem;
     align-items: center;
-
+    padding-left: 2rem;
 }
 
 .navbar-link-container{
