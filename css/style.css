@@ -50,7 +50,7 @@ section{
     color: var(--color1);
 }
 
-#navbar .navbar-link{
+.navbar-link{
     color: var(--color2);
 }
 /* fonts */
