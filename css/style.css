@@ -7,6 +7,9 @@
     --sandy-brown: #f09d51;
 }
 /* reset */
+li{
+    list-style-type: none;
+}
 /* base styles */
 /* fonts */
 /* mobile styles */
