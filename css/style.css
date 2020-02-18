@@ -1,10 +1,10 @@
 /* variables */
 :root{
-    --pastel-gray: #cbd4c2;
-    --white: #fffcff;
-    --onyx: #313638;
-    --english-vermillion: #c3423f;
-    --sandy-brown: #f09d51;
+    --color1: #fffcff;
+    --color2: #cbd4c2;
+    --color3: #f09d51;
+    --color4: #c3423f;
+    --color5: #313638;
 }
 /* reset */
 body,p,a,ul,li{
@@ -17,7 +17,7 @@ li{
 }
 /* base styles */
 body{
-    background: var(--onyx);
+    background: var(--color5);
     overflow-x: hidden;
 }
 /* fonts */
