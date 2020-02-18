@@ -24,7 +24,7 @@ body{
     overflow-x: hidden;
 }
 
-#projects, #welcome-section{
+section{
     height: 100vh;
 }
 
