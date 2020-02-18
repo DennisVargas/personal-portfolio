@@ -54,12 +54,13 @@ section{
     color: var(--color1);
     font-size: .85rem;
     align-items: center;
-    text-align: center;
+
 }
 
 .navbar-link-container{
     display: flex;
     background-color: red;
+    text-align: center;
 }
 
 .navbar-link{
