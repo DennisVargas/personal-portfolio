@@ -44,15 +44,22 @@ section{
 
 #navbar{
     position: fixed;
+    display: flex;
     top: 0;
     left: 0;
     background-color: var(--color4);
     color: var(--color1);
 }
 
+.navbar-links-container{
+    
+}
+
 .navbar-link{
     color: var(--color2);
 }
+
+
 /* fonts */
 /* mobile styles */
 
