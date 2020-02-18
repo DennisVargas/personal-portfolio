@@ -57,7 +57,7 @@ section{
     text-align: center;
 }
 
-.navbar-links-container{
+.navbar-link-container{
     display: flex;
     background-color: red;
 }
