@@ -1,36 +1,77 @@
 /* variables */
 :root{
-    --pastel-gray: #cbd4c2;
-    --white: #fffcff;
-    --onyx: #313638;
-    --english-vermillion: #c3423f;
-    --sandy-brown: #f09d51;
+    --color1: #fffcff;
+    --color2: #cbd4c2;
+    --color3: #f09d51;
+    --color4: #c3423f;
+    --color5: #313638;
 }
+
 /* reset */
 body,p,a,ul,li{
     margin: 0;
     padding: 0;
     text-decoration: none;
 }
+
 li{
     list-style-type: none;
 }
+
 /* base styles */
+.col-1{width: 8.33%}
+.col-2{width: 16.67%}
+.col-3{width: 25%}
+.col-4{width: 33.33%}
+.col-5{width: 41.67%}
+.col-6{width: 50%}
+.col-7{width: 58.33%}
+.col-8{width: 66.67%}
+.col-9{width: 75%}
+.col-10{width: 83.33%}
+.col-11{width: 91.67%}
+.col-12{width: 100%}
+
+html{
+    font-size: 16px;
+}
+
 body{
-    background: var(--onyx);
+    background: var(--color5);
     overflow-x: hidden;
 }
-/* fonts */
-/* mobile styles */
-#projects, #welcome-section{
+
+section{
     height: 100vh;
 }
 
 #navbar{
     position: fixed;
+    display: flex;
     top: 0;
     left: 0;
+    background-color: var(--color4);
+    color: var(--color1);
+    align-items: center;
 }
+
+#navbar h1{
+    padding-left: .5rem;
+}
+.navbar-link-container{
+    display: flex;
+    background-color: red;
+    text-align: center;
+}
+
+.navbar-link{
+    color: var(--color2);
+}
+
+
+/* fonts */
+/* mobile styles */
+
 
 /* small tablet and large phone)*/
 @media only screen and (min-width: 620px){
