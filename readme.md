@@ -1,3 +1,3 @@
 # Personal Portfolio
 
-## Dennis Vargas' web portfolio of his programming work
+## Dennis Vargas' web portfolio project, displaying his work as a Full Stack Software Engineer.
