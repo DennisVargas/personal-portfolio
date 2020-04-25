@@ -14,12 +14,19 @@
   <!-- <link rel="stylesheet" href="css/style.css"> -->
   <style>
     .card-img-top {
-      height: 16rem;
+      height: 18rem;
       width: auto;
     }
 
     .card-columns .card {
       margin-bottom: 2.8rem;
+    }
+
+    .footer-icon {
+      max-height: 100%;
+      max-width: 100%;
+      width: auto;
+      height: auto;
     }
   </style>
 </head>
@@ -27,7 +34,7 @@
 <body>
   <!-- Navigation Bar -->
   <nav id="navbar" class="navbar navbar-expand-md bg-dark navbar-dark fixed-top">
-    <a class="navbar-brand" href="#">dVargas.Software</a>
+    <a class="navbar-brand" href="#">Dennis Vargas</a>
     <!-- Toggler/collapsibe Button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
@@ -35,14 +42,14 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a href="#welcome-section" class="nav-link active">Intro</a>
+          <a href="#welcome-section" class="nav-link active">Welcome</a>
         </li>
         <li class="nav-item">
           <a href="#projects" class="nav-link">Projects</a>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a href="#about" class="nav-link">About</a>
-        </li>
+        </li> -->
         <li class="nav-item">
           <a href="#contact" class="nav-link">Contact</a>
         </li>
@@ -51,16 +58,16 @@
   </nav>
 
   <!-- Main -->
-  <main class="" style="margin-top:56px">
+  <main class="bg-dark" style="margin-top:56px">
     <!-- Welcome Section -->
-    <section id="welcome-section" class="bg-light container" style="height: 95.90vh;">
+    <section id="welcome-section" class="bg-light container" style="height: 100vh;">
       <div class="row h-100 justify-content-center">
         <div
           class="row align-self-center bg-primary col-11 col-md-8 h-75 justify-content-center border border-secondary rounded-lg p-0">
           <div class="row text-center h-50 col-12 justify-content-center p-0 text-white">
             <div class="align-self-center">
               <h1 class="">Dennis Vargas</h1>
-              <h4 class="">Full Stack Software Developer</h4>
+              <h3 class="">Software Engineer<small class="h6"><br>Bachelor of Science, Computer Science</small></h3>
             </div>
           </div>
           <div class="row text-center h-50 border-top border-light col-12 justify-content-center p-0 bg-secondary">
@@ -77,19 +84,19 @@
     <section id="projects" class="container">
       <!-- Projects Section Heading -->
       <header class="row justify-content-center bg-primary text-white">
-        <h1 class="display-3">Projects</h1>
+        <h2 class="display-4">Projects</h2>
       </header>
-      <div class="row justify-content-center bg-dark">
-      </div>
-      <article class="row justify-content-center bg-dark">
+      <article class="row justify-content-center bg-secondary">
         <!-- Project Cards -->
         <div class="card-columns m-2 mt-4">
           <!-- Seat Map Maker Project-->
-          <div class="card bg-secondary border border-primary text-center">
-            <img class="card-img-top img-fluid align-self-center"
-              src="./assets/project-card-img/pretix-seat-map-maker.png" alt="seating-map-maker-image">
+          <div class="project-tile card bg-dark border border-primary text-center">
+            <a href="https://wsuvcapstoneteam7.github.io/SeatMapMaker/">
+              <img class="card-img-top img-fluid align-self-center"
+                src="./assets/project-card-img/pretix-seat-map-maker.png" alt="seating-map-maker-image">
+            </a>
             <div class="card-body text-light border border-light bg-primary">
-              <h3 class="card-title ">Seating Map Maker</h3>
+              <h4 class="card-title ">Seating Map Maker</h4>
               <div class="card-text">
                 <p class="lead ">VueJS, FabricJS, BootStrap4</p>
                 <p class="text-dark bg-light border rounded">Interactive seat reservation map creation tool.
@@ -99,11 +106,13 @@
           </div>
 
           <!-- The Garlic Bull Project -->
-          <div class="card bg-secondary border border-primary text-center">
-            <img class="card-img-top img-fluid align-self-center" src="./assets/project-card-img/garlic-bull.png"
-              alt="garlic-bull-image">
+          <div class="project-tile card bg-dark border border-primary text-center">
+            <a href="https://dennisvargas.github.io/the-garlic-bull/">
+              <img class="card-img-top img-fluid align-self-center" src="./assets/project-card-img/garlic-bull2.png"
+                alt="garlic-bull-image">
+            </a>
             <div class="card-body text-center text-light border border-light bg-primary">
-              <h3 class="card-title ">The Garlic Bull Cafe</h3>
+              <h4 class="card-title ">The Garlic Bull Cafe</h4>
               <div class="card-text">
                 <p class="lead ">HTML5, CSS</p>
                 <p class="text-dark bg-light border rounded">Responsive web page for The Garlic Bull Cafe.</p>
@@ -112,11 +121,13 @@
           </div>
 
           <!-- Auction Project -->
-          <div class="card bg-secondary text-center border border-primary">
-            <img class="card-img-top img-fluid align-self-center" src="./assets/project-card-img/auction-app.png"
-              alt="auction-app-image">
+          <div class="project-tile card bg-dark text-center border border-primary">
+            <a href="https://github.com/DennisVargas/auction-app#auction-app-v10">
+              <img class="card-img-top img-fluid align-self-center" src="./assets/project-card-img/auction-app.png"
+                alt="auction-app-image">
+            </a>
             <div class="card-body text-center text-light border border-light bg-primary">
-              <h3 class="card-title ">Auction App v1.0</h3>
+              <h4 class="card-title ">Auction App v1.0</h4>
               <div class="card-text">
                 <p class="lead ">Python 2, web.py, Jinja2, SQLite</p>
                 <p class="bg-light text-dark border rounded">Users can buy and sell each others items.</p>
@@ -125,24 +136,28 @@
           </div>
 
           <!-- Weather Project -->
-          <div class="card bg-secondary text-center border border-primary">
-            <img class="card-img-top img-fluid align-self-center" src="./assets/project-card-img/weather-app.png"
-              alt="weather-app">
+          <div class="project-tile card bg-dark text-center border border-primary">
+            <a href="https://dvargas-weather.herokuapp.com/">
+              <img class="card-img-top img-fluid align-self-center" src="./assets/project-card-img/weather-app2.png"
+                alt="weather-app">
+            </a>
             <div class="card-body text-center text-light border border-light bg-primary">
-              <h3 class="card-title ">Weather App</h3>
+              <h4 class="card-title ">Weather App</h4>
               <div class="card-text">
                 <p class="lead ">NodeJS, ExJS, hbs, Map Box, Dark Sky</p>
-                <p class="bg-light text-dark  border rounded">Reports the weather at a given zip code.</p>
+                <p class="bg-light text-dark border rounded">Reports the weather at a given zip code.</p>
               </div>
             </div>
           </div>
 
           <!-- Zurbs Project -->
-          <div class="card bg-secondary text-center border border-primary">
-            <img class="card-img-top img-fluid align-self-center " src="./assets/project-card-img/zurbs1.png"
-              alt="zurbs1">
+          <div class="project-tile card bg-dark text-center border border-primary">
+            <a href="https://github.com/DennisVargas/zurbs-battle-arena">
+              <img class="card-img-top img-fluid align-self-center " src="./assets/project-card-img/zurbs1.png"
+                alt="zurbs1">
+            </a>
             <div class="card-body text-center text-light border border-light bg-primary">
-              <h3 class="card-title ">Zurbs Battle Arena</h3>
+              <h4 class="card-title ">Zurbs Battle Arena</h4>
               <div class="card-text">
                 <p class="lead ">Java, libGDX, Gradle</p>
                 <p class="bg-light text-dark border rounded">2d, pvp, mech fighting game.</p>
@@ -151,24 +166,28 @@
           </div>
 
           <!-- No Name RPG Project -->
-          <div class="card bg-secondary text-center">
-            <img class="card-img-top img-fluid align-self-center" src="./assets/project-card-img/emanon-rpg.png"
-              alt="emanon-image">
+          <div class="project-tile card bg-dark text-center border border-primary">
+            <a href="https://github.com/DennisVargas/emanon-rpg">
+              <img class="card-img-top img-fluid align-self-center" src="./assets/project-card-img/emanon-rpg.png"
+                alt="emanon-image">
+            </a>
             <div class="card-body text-center text-light border border-light bg-primary">
-              <h3 class="card-title ">Emanon RPG</h3>
+              <h4 class="card-title ">Emanon RPG</h4>
               <div class="card-text">
                 <p class="lead ">Java, Slick 2d</p>
-                <p class="bg-light text-dark border rounded">Top down online multiplayer dungeon crawler.</p>
+                <p class="bg-light text-dark border rounded">Top down multiplayer dungeon crawler.</p>
               </div>
             </div>
           </div>
 
           <!-- Super Racy Futbol 3000 Project -->
-          <div class="card bg-secondary text-center">
-            <img class="card-img-top img-fluid align-self-center"
-              src="./assets/project-card-img/super-racy-futbol-3000-menu.png" alt="super-racy-futbol-3000-menu">
+          <div class="project-tile card bg-dark text-center border border-primary">
+            <a href="https://github.com/DennisVargas/super-racy-futbol-3000">
+              <img class="card-img-top img-fluid align-self-center"
+                src="./assets/project-card-img/super-racy-futbol-3000-menu.png" alt="super-racy-futbol-3000-menu">
+            </a>
             <div class="card-body text-center text-light border border-light bg-primary">
-              <h3 class="card-title ">Super Racy Futbol 3000</h3>
+              <h4 class="card-title ">Super Racy Futbol 3000</h4>
               <div class="card-text">
                 <p class="lead ">Java, Slick 2d</p>
                 <p class="bg-light text-dark border rounded">Top down futbol game played in cars. </p>
@@ -177,42 +196,68 @@
           </div>
 
           <!-- Home Inventory Android -->
-          <div class="card bg-secondary text-center">
-            <img class="card-img-top img-fluid align-self-center" src="./assets/project-card-img/home-inventory.png"
-              alt="home-inventory-image">
+          <div class="project-tile card bg-dark text-center border border-primary">
+            <a href="https://github.com/DennisVargas/home-inventory-app#home-inventory-app">
+              <img class="card-img-top img-fluid align-self-center" src="./assets/project-card-img/home-inventory.png"
+                alt="home-inventory-image">
+            </a>
             <div class="card-body text-center text-light border border-light bg-primary">
-              <h3 class="card-title ">Android Home Inventory</h3>
+              <h4 class="card-title ">Home Inventory</h4>
               <div class="card-text">
                 <p class="lead ">AndroidStudio, Java, SQLite</p>
-                <p class="bg-light text-dark border rounded">Item information organized in custom folders.</p>
+                <p class="bg-light text-dark border rounded">Item info organized in custom folders.</p>
               </div>
             </div>
           </div>
 
           <!-- Asimov Tribute -->
-          <div class="card bg-secondary text-center">
-            <img class="card-img-top img-fluid align-self-center" src="./assets/project-card-img/asimov-tribute.png"
-              alt="asimov-tribute-image">
+          <div class="project-tile card bg-dark text-center border border-primary">
+            <a href="">
+              <img class="card-img-top img-fluid align-self-center" src="./assets/project-card-img/asimov-tribute.png"
+                alt="asimov-tribute-image">
+            </a>
             <div class="card-body text-center text-light border border-light bg-primary">
-              <h3 class="card-title ">Issac Asimov Tribute</h3>
+              <h4 class="card-title ">Issac Asimov Tribute</h4>
               <div class="card-text">
                 <p class="lead ">HTML5</p>
-                <p class="bg-light text-dark border rounded">Biographical and literary info on Issac Asimiov.
+                <p class="bg-light text-dark border rounded">Bio. and Bib. of sci-fi author Issac Asimiov.
                 </p>
               </div>
             </div>
           </div>
-
         </div>
       </article>
     </section>
 
     <!-- Contacts Section -->
-    <!-- <section id="contact">
-        <div id="contact-links">
-          <a href="https://github.com/dennisvargas" id="profile-link" target="_blank">Github</a>
+    <section id="contact" class="container bg-secondary justify-content-center" style="height:10rem">
+      <div class="row bg-primary text-light justify-content-center border border-light " style="height: 65%;">
+        <div class="text-center h2 col-12">
+          Contact Links
         </div>
-      </section> -->
+        <p class="text-center col-12 text-light">
+          Click a link, get in touch.
+          <br>Lets <span class="h5">develop software</span> together.
+        </p>
+      </div>
+      <div class="row text-center bg-light mt-1" style="height: 35%;">
+        <div class="d-flex col-4 p-1 h-100 justify-content-center border border-secondary">
+          <img src="./assets/logos/GitHub_Logo.png" alt="" class="footer-icon">
+          <a class="stretched-link" href="https://github.com/dennisvargas" id="profile-link" target="_blank">
+          </a>
+        </div>
+        <div class="d-flex col-4 p-1 h-100 justify-content-center border border-secondary">
+          <img src="./assets/logos/LI-In-Bug.png" alt="linked-in-proflile-link" class="footer-icon">
+          <a class="stretched-link" href="https://www.linkedin.com/in/dennis-vargas-28888515a/" target="_blank">
+          </a>
+        </div>
+        <div class="d-flex col-4 p-1 h-100 justify-content-center border border-secondary">
+          <img src="./assets/logos/email.png" alt="" class="footer-icon">
+          <a class="stretched-link" href="mailto: dvargas.software@gmail.com" id="email-link" target="_blank">
+          </a>
+        </div>
+      </div>
+    </section>
   </main>
 
   <!-- Optional JavaScript -->
